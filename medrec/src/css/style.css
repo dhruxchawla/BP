@@ -1,0 +1,56 @@
+@font-face {
+   font-family: mnr;
+   src: url(../manrope.semibold.otf);
+}
+
+@font-face {
+   font-family: bp;
+   src: url(../alsscrp.ttf);
+}
+
+body{
+   background-color: rgb(210, 255, 210);
+   font-family: mnr;
+}
+.mt{
+   font-family: bp;
+   font-weight: 500;
+   margin-top: 200px;
+   text-align: center;
+   font-size: 60px;
+}
+.my_nav {
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+   background-color: #cbffe5;
+}
+
+.card-title h4 {
+   font-size: 3em;
+}
+
+.bx{
+   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+   background-color: rgb(235, 255, 253);
+}
+
+.card-title p {
+   font-size: 1.5em;
+}
+
+.newreport {
+   margin-top: 6em;
+}
+
+.inline {
+   display: inline;
+}
+
+footer.main-footer {
+   padding-top: 25px;
+   padding-bottom: 25px;
+   color: white;
+   background-color: rgb(9, 22, 83);
+}

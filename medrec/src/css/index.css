@@ -1,0 +1,86 @@
+body{
+   background-color: rgb(240, 252, 239);
+   color: black;
+}
+
+.my_nav {
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+   background-color: rgb(255 255 255 /80%) !important;
+   backdrop-filter: blur(10px)
+}
+
+.main-header{
+   background-image: url("../img/giphy-3.gif");
+   background-size: cover;
+   height: 25em;
+   padding-top: 110px;
+   padding-bottom: 200px;
+}
+
+.features {
+   background:  rgb(220 238 254);
+   padding-top: 2em;
+   padding-bottom: 1em;
+}
+
+.body-content .list-group .list-group-item h3{
+   font-size: 1.3em;
+}
+
+.body-content .list-group a {
+   color: black;
+   padding-top: 20px;
+   text-decoration: none;
+}
+
+.header-text-holder {
+   color: white;
+}
+
+.patient-pic {
+   width: 100%;
+   height: auto;
+}
+
+.doctor-pic {
+   width: auto;
+   height: 270px;
+   margin-left: 45px;
+}
+
+.profile-body{
+   padding: 0;
+}
+
+.report-image {
+   width: 100%;
+   height: auto;
+}
+
+.inline {
+   display: inline;
+}
+
+footer.main-footer {
+   padding-top: 25px;
+   padding-bottom: 25px;
+   color: black;
+   background-color: rgb(235, 255, 253);
+}
+
+.ac{
+   text-align: center;
+}
+
+.btt{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 110px;
+}
+
+.btnitem{
+   margin-right: 20px;
+   font-size: 40px;
+   cursor: pointer;
+}
